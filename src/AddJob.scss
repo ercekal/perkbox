@@ -1,0 +1,10 @@
+.AddJob {
+  display: flex;
+  flex-direction: column;
+  background: red;
+  &-dropDown,
+  &-input {
+    display: flex;
+    flex-direction: column;
+  }
+}
